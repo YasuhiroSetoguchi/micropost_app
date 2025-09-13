@@ -1,24 +1,29 @@
-# README
+# Micropostのアプリケーション
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+これは、次の教材で作られたサンプルアプリケーションです。
+[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
+（第7版）
+[Michael Hartl](https://www.michaelhartl.com/) 著
 
-Things you may want to cover:
+## ライセンス
 
-* Ruby version
+[Ruby on Rails チュートリアル](https://railstutorial.jp/)内にある
+ソースコードはMITライセンスとBeerwareライセンスのもとで公開されています。
+詳細は [LICENSE.md](LICENSE.md) をご覧ください。
 
-* System dependencies
+## 使い方
 
-* Configuration
+作成中・・・
 
-* Database creation
+```
+$ rails db:migrate
+```
 
-* Database initialization
+最後に、テストを実行してうまく動いているかどうか確認してください。
 
-* How to run the test suite
+```
+$ rails test
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
+を参考にしてください。
