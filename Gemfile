@@ -66,7 +66,7 @@ group :test do
   gem "minitest-reporters",       "1.6.0"
   gem "guard",                    "2.18.0"
   gem "guard-minitest",           "2.4.6"
-  gem 'mutex_m'
+  gem "mutex_m"
 end
 
 group :development, :test do
